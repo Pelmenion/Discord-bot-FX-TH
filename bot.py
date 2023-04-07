@@ -29,7 +29,7 @@ async def help(ctx):
     embed1.add_field(name=f"ping : ", value="Показывает текущий пинг", inline=False)
     embed1.add_field(name=f"role [@участник] [@роль]: ", value="выдает указанному участнику указанную роль", inline=False)
 
-    embed2 = discord.Embed(title='РП дествия')
+    embed2 = discord.Embed(title='РП дествия', color=discord.Color(0xFFFFFF))
     embed2.add_field(name=f"bite [@участник] : ", value="укусить участника", inline=False)
     embed2.add_field(name=f"blush : ", value="покраснеть", inline=False)
     embed2.add_field(name=f"cry : ", value="заплакать", inline=False)
