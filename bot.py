@@ -41,16 +41,17 @@ async def help(ctx):
     embed1.add_field(name=f"hug [@участник] : ", value="обнять участника", inline=False)
     embed1.add_field(name=f"kill [@участник] : ", value="убить участника", inline=False)
     embed1.add_field(name=f"kiss [@участник] : ", value="поцеловать участника", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
-    embed1.add_field(name=f"cuddle [@участник] : ", value="прижаться к пользователю", inline=False)
+    embed1.add_field(name=f"lick [@участник] : ", value="лизнуть пользователя", inline=False)
+    embed1.add_field(name=f"pat [@участник] : ", value="погладить участника", inline=False)
+    embed1.add_field(name=f"slap [@участник] : ", value="дать пощечину участнику", inline=False)
+    embed1.add_field(name=f"smile : ", value="улыбнуться", inline=False)
+    embed1.add_field(name=f"smug : ", value="выглядеть самодовольно", inline=False)
+    embed1.add_field(name=f"wave [@участник] : ", value="приветствовать участника", inline=False)
+    embed1.add_field(name=f"wink [@участник] : ", value="подмингнуть участнику", inline=False)
     embed2.set_footer(text='РП - (Role Play)ролевые игры.')
 
     message = await ctx.send(embed=embed1)
+    message = await ctx.send(embed=embed2)
 
 
 #проверит пинг
