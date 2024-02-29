@@ -269,4 +269,4 @@ async def on_raw_reaction_add(payload):
 
 
 
-bot.run('MTA5MzUzMTY2NjM3MjM3ODcxNQ.GVpXKY.IICOQZoiocquyqDgRSTbguLbzi8K0j2huKNZ3Y')
+bot.run('token')
